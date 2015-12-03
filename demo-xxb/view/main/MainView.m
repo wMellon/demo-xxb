@@ -15,7 +15,7 @@
              @{@"title":@"引导页",@"class":@"StartPagingVC"},
              @{@"title":@"测试横向移动操作",@"class":@"SlidingTestViewController"},
              @{@"title":@"测试图片缓存",@"class":@"WebImgTestViewController"},
-             @{@"title":@"测试AFNetWorking",@"class":@"AFNetWorkTestViewController"},
+             @{@"title":@"AFNetWorking断点续传",@"class":@"AFNetWorkTestViewController"},
              @{@"title":@"仿QQ空间下拉的table",@"class":@"FlexTitleTableViewController"},
              @{@"title":@"测试分享SDK",@"class":@"TestShareSDKViewController"},
              @{@"title":@"测试POP",@"class":@"POPTestViewController"}];
