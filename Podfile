@@ -1,6 +1,7 @@
 platform:ios,'7.0'
 pod 'AFNetworking','~>2.0'
 pod 'SDWebImage', '~>3.7'
+pod 'pop', '~> 1.0'
 
 
 # 主模块(必须)

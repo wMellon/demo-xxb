@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		16ACC0641D6DEAEA031D83B5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB3A61D06DCF4A680CB9912 /* libPods.a */; };
+		F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10FD3E71C0D315400809572 /* POPTestViewController.xib */; };
 		F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360231BF9B497005F109A /* XBSlidingViewController.m */; };
 		F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360261BF9B4B6005F109A /* SlidingTestViewController.m */; };
-		F13284D21C085B560030B269 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13284D11C085B560030B269 /* TestViewController.m */; };
+		F13246921C0ECC5100936C07 /* add0227@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13246911C0ECC5000936C07 /* add0227@2x.png */; };
 		F13750661BFC076D00437F1C /* WebImgTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13750651BFC076D00437F1C /* WebImgTestViewController.m */; };
 		F141060C1BF878BA0007FA82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F141060B1BF878BA0007FA82 /* main.m */; };
 		F141060F1BF878BA0007FA82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F141060E1BF878BA0007FA82 /* AppDelegate.m */; };
@@ -23,6 +24,7 @@
 		F14106441BF87B290007FA82 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14106431BF87B290007FA82 /* MainView.m */; };
 		F14106481BF87CED0007FA82 /* LongPressExchgCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F14106471BF87CED0007FA82 /* LongPressExchgCellVC.m */; };
 		F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F141064A1BF8B3D70007FA82 /* StartPagingVC.m */; };
+		F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15108341C0C36B9004BE0B5 /* POPTestViewController.m */; };
 		F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */; };
 		F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080401BFD738F00E008AD /* FlexTitleTableViewController.m */; };
 		F1A080441BFD743600E008AD /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A080431BFD743600E008AD /* banner@2x.png */; };
@@ -50,12 +52,12 @@
 /* Begin PBXFileReference section */
 		2E53AF0DAE67E6B61893BB74 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4DA567F443D122ED4B39E33 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F10FD3E71C0D315400809572 /* POPTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POPTestViewController.xib; sourceTree = "<group>"; };
 		F11360221BF9B497005F109A /* XBSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSlidingViewController.h; sourceTree = "<group>"; };
 		F11360231BF9B497005F109A /* XBSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSlidingViewController.m; sourceTree = "<group>"; };
 		F11360251BF9B4B6005F109A /* SlidingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTestViewController.h; sourceTree = "<group>"; };
 		F11360261BF9B4B6005F109A /* SlidingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTestViewController.m; sourceTree = "<group>"; };
-		F13284D01C085B560030B269 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		F13284D11C085B560030B269 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F13246911C0ECC5000936C07 /* add0227@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add0227@2x.png"; sourceTree = "<group>"; };
 		F13750641BFC076D00437F1C /* WebImgTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImgTestViewController.h; sourceTree = "<group>"; };
 		F13750651BFC076D00437F1C /* WebImgTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImgTestViewController.m; sourceTree = "<group>"; };
 		F14106071BF878BA0007FA82 /* demo-xxb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-xxb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,8 @@
 		F141064A1BF8B3D70007FA82 /* StartPagingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPagingVC.m; sourceTree = "<group>"; };
 		F141064D1BF8B42C0007FA82 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		F14106501BF8B55D0007FA82 /* demo-xxb.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-xxb.pch"; sourceTree = "<group>"; };
+		F15108331C0C36B9004BE0B5 /* POPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTestViewController.h; sourceTree = "<group>"; };
+		F15108341C0C36B9004BE0B5 /* POPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTestViewController.m; sourceTree = "<group>"; };
 		F1A0803C1BFD6F1100E008AD /* AFNetWorkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetWorkTestViewController.h; sourceTree = "<group>"; };
 		F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkTestViewController.m; sourceTree = "<group>"; };
 		F1A0803F1BFD738F00E008AD /* FlexTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexTitleTableViewController.h; sourceTree = "<group>"; };
@@ -260,8 +264,9 @@
 				F1A080401BFD738F00E008AD /* FlexTitleTableViewController.m */,
 				F1A080841BFDC01000E008AD /* TestShareSDKViewController.h */,
 				F1A080851BFDC01000E008AD /* TestShareSDKViewController.m */,
-				F13284D01C085B560030B269 /* TestViewController.h */,
-				F13284D11C085B560030B269 /* TestViewController.m */,
+				F15108331C0C36B9004BE0B5 /* POPTestViewController.h */,
+				F15108341C0C36B9004BE0B5 /* POPTestViewController.m */,
+				F10FD3E71C0D315400809572 /* POPTestViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 		F1A080421BFD73B900E008AD /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				F13246911C0ECC5000936C07 /* add0227@2x.png */,
 				F1A080431BFD743600E008AD /* banner@2x.png */,
 			);
 			path = resource;
@@ -420,10 +426,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */,
 				F1A080441BFD743600E008AD /* banner@2x.png in Resources */,
 				F141061A1BF878BA0007FA82 /* LaunchScreen.storyboard in Resources */,
 				F14106171BF878BA0007FA82 /* Assets.xcassets in Resources */,
 				F14106151BF878BA0007FA82 /* Main.storyboard in Resources */,
+				F13246921C0ECC5100936C07 /* add0227@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +491,7 @@
 			files = (
 				F13750661BFC076D00437F1C /* WebImgTestViewController.m in Sources */,
 				F14106481BF87CED0007FA82 /* LongPressExchgCellVC.m in Sources */,
-				F13284D21C085B560030B269 /* TestViewController.m in Sources */,
+				F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */,
 				F141060F1BF878BA0007FA82 /* AppDelegate.m in Sources */,
 				F14106441BF87B290007FA82 /* MainView.m in Sources */,
 				F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */,
