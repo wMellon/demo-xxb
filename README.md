@@ -10,3 +10,4 @@
 测试AFNetWorking
 仿QQ空间下拉的table
 测试分享SDK
+pop测试例子，包含：错误输入；弹出；移动；翻转；变形；
