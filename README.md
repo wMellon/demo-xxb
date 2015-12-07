@@ -6,7 +6,7 @@
 长按对cell排序<br>
 引导页<br>
 测试横向移动操作<br>
-测试图片缓存<br>
+SDWebImage缓存加载和缓存时限测试<br>
 AFNetWorking断点续传（借助网友封装好的类）<br>
 仿QQ空间下拉的table<br>
 测试分享SDK<br>
