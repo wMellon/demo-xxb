@@ -25,6 +25,7 @@
 		F14106481BF87CED0007FA82 /* LongPressExchgCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F14106471BF87CED0007FA82 /* LongPressExchgCellVC.m */; };
 		F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F141064A1BF8B3D70007FA82 /* StartPagingVC.m */; };
 		F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15108341C0C36B9004BE0B5 /* POPTestViewController.m */; };
+		F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */; };
 		F16929D61C101896007FC848 /* DownLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F16929D51C101896007FC848 /* DownLoadOperation.m */; };
 		F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */; };
 		F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */; };
@@ -88,6 +89,7 @@
 		F14106501BF8B55D0007FA82 /* demo-xxb.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-xxb.pch"; sourceTree = "<group>"; };
 		F15108331C0C36B9004BE0B5 /* POPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTestViewController.h; sourceTree = "<group>"; };
 		F15108341C0C36B9004BE0B5 /* POPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTestViewController.m; sourceTree = "<group>"; };
+		F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebImgTestViewController.xib; sourceTree = "<group>"; };
 		F16929D41C101896007FC848 /* DownLoadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadOperation.h; sourceTree = "<group>"; };
 		F16929D51C101896007FC848 /* DownLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadOperation.m; sourceTree = "<group>"; };
 		F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFNetWorkTestViewController.xib; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				F11360261BF9B4B6005F109A /* SlidingTestViewController.m */,
 				F13750641BFC076D00437F1C /* WebImgTestViewController.h */,
 				F13750651BFC076D00437F1C /* WebImgTestViewController.m */,
+				F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */,
 				F1A0803C1BFD6F1100E008AD /* AFNetWorkTestViewController.h */,
 				F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */,
 				F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */,
@@ -441,6 +444,7 @@
 				F14106171BF878BA0007FA82 /* Assets.xcassets in Resources */,
 				F14106151BF878BA0007FA82 /* Main.storyboard in Resources */,
 				F13246921C0ECC5100936C07 /* add0227@2x.png in Resources */,
+				F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebImgTestViewController : UITableViewController
+@interface WebImgTestViewController : UIViewController
 
 @end
