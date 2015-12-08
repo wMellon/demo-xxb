@@ -26,7 +26,6 @@
 		F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F141064A1BF8B3D70007FA82 /* StartPagingVC.m */; };
 		F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15108341C0C36B9004BE0B5 /* POPTestViewController.m */; };
 		F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */; };
-		F16929D61C101896007FC848 /* DownLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F16929D51C101896007FC848 /* DownLoadOperation.m */; };
 		F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */; };
 		F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */; };
 		F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080401BFD738F00E008AD /* FlexTitleTableViewController.m */; };
@@ -90,8 +89,6 @@
 		F15108331C0C36B9004BE0B5 /* POPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTestViewController.h; sourceTree = "<group>"; };
 		F15108341C0C36B9004BE0B5 /* POPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTestViewController.m; sourceTree = "<group>"; };
 		F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebImgTestViewController.xib; sourceTree = "<group>"; };
-		F16929D41C101896007FC848 /* DownLoadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadOperation.h; sourceTree = "<group>"; };
-		F16929D51C101896007FC848 /* DownLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadOperation.m; sourceTree = "<group>"; };
 		F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFNetWorkTestViewController.xib; sourceTree = "<group>"; };
 		F1A0803C1BFD6F1100E008AD /* AFNetWorkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetWorkTestViewController.h; sourceTree = "<group>"; };
 		F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkTestViewController.m; sourceTree = "<group>"; };
@@ -160,8 +157,6 @@
 		F13750311BFC071100437F1C /* vendor */ = {
 			isa = PBXGroup;
 			children = (
-				F16929D41C101896007FC848 /* DownLoadOperation.h */,
-				F16929D51C101896007FC848 /* DownLoadOperation.m */,
 			);
 			path = vendor;
 			sourceTree = "<group>";
@@ -509,7 +504,6 @@
 				F14106441BF87B290007FA82 /* MainView.m in Sources */,
 				F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */,
 				F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */,
-				F16929D61C101896007FC848 /* DownLoadOperation.m in Sources */,
 				F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */,
 				F141063F1BF879490007FA82 /* MainViewController.m in Sources */,
 				F141060C1BF878BA0007FA82 /* main.m in Sources */,
