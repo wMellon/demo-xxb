@@ -51,6 +51,7 @@
         __block CGFloat weakProgress = progress;
         __block NSString *weakCachePath = cachePath;
         
+        //获取图片已经接收到的大小
         NSFileHandle* fh = [NSFileHandle fileHandleForReadingAtPath:cachePath];
         NSData* contentData = [fh readDataToEndOfFile];
         

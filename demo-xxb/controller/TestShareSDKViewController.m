@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.navigationController.navigationBar.translucent = NO;
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, SCREEN_WIDTH - 20, 30)];
     [btn setTitle:@"分享" forState:UIControlStateNormal];                            //设置内容
