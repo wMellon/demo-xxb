@@ -54,6 +54,7 @@
     NSDictionary *dict = self.dataSource[indexPath.row];
     NSString *className = dict[@"class"];
     UIViewController *controller = [[NSClassFromString(className) alloc] init];
+    controller.title = dict[@"title"];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
