@@ -15,7 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *stopBtn;
 @property (weak, nonatomic) IBOutlet UIButton *pauseBtn;
-@property (weak, nonatomic) IBOutlet UIProgressView *progressView;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+
 
 @property (strong, nonatomic) AVAudioPlayer *player;
 @property (assign, nonatomic) NSTimeInterval duration;
@@ -34,8 +35,11 @@
 }
 
 - (void)playProgress{
-    double progress = _player.currentTime / _duration;
-    [_progressView setProgress:progress animated:YES];
+    [_slider setValue:_player.currentTime animated:YES];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
 }
 
 #pragma mark - init初始化
@@ -43,8 +47,12 @@
 -(void)commonInit{
     isPause = YES;
     
-    [_progressView setProgress:0.0 animated:NO];
     [self player];
+    
+    //slider设置
+    _slider.minimumValue = 0.0;
+    _slider.maximumValue = _duration;
+    
     self.timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(playProgress) userInfo:nil repeats:YES];
 }
 
@@ -87,11 +95,12 @@
     isPause = YES;
     
     [_pauseBtn setBackgroundImage:[UIImage imageNamed:@"play"] forState:UIControlStateNormal];
-    [_progressView setProgress:0.0 animated:NO];
+    [_slider setValue:0.0 animated:YES];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+- (IBAction)progressChg:(id)sender {
+    UISlider *uiSlider = (UISlider*)sender;
+    _player.currentTime = uiSlider.value;
 }
+
 @end

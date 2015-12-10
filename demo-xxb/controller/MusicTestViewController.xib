@@ -8,7 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MusicTestViewController">
             <connections>
                 <outlet property="pauseBtn" destination="b3c-vH-QPf" id="Jc8-E6-54k"/>
-                <outlet property="progressView" destination="dXs-pQ-jMS" id="ja3-Y3-eTn"/>
+                <outlet property="slider" destination="TCN-B0-VzZ" id="f9D-A8-TBJ"/>
                 <outlet property="stopBtn" destination="QRX-BV-q6j" id="eke-go-zQX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -27,11 +27,6 @@
                         <action selector="pause:" destination="-1" eventType="touchUpInside" id="nC7-7C-OqC"/>
                     </connections>
                 </button>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" id="dXs-pQ-jMS">
-                    <rect key="frame" x="76" y="134" width="168" height="2"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <animations/>
-                </progressView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QRX-BV-q6j">
                     <rect key="frame" x="119" y="162" width="32" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,6 +44,14 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="TCN-B0-VzZ">
+                    <rect key="frame" x="63" y="115" width="195" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <connections>
+                        <action selector="progressChg:" destination="-1" eventType="valueChanged" id="Rfk-10-QMS"/>
+                    </connections>
+                </slider>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
