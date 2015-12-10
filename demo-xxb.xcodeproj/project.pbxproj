@@ -47,6 +47,11 @@
 		F1D97F001C19271F0009F2EA /* 冬天的秘密.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EFD1C19271F0009F2EA /* 冬天的秘密.mp3 */; };
 		F1D97F011C19271F0009F2EA /* 我们不该这样的.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EFE1C19271F0009F2EA /* 我们不该这样的.mp3 */; };
 		F1D97F021C19271F0009F2EA /* 西海情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EFF1C19271F0009F2EA /* 西海情歌.mp3 */; };
+		F1D97F091C194E4B0009F2EA /* AFNetWorking.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F041C194E4B0009F2EA /* AFNetWorking.gif */; };
+		F1D97F0A1C194E4B0009F2EA /* changan.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F051C194E4B0009F2EA /* changan.gif */; };
+		F1D97F0B1C194E4B0009F2EA /* SDWebImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F061C194E4B0009F2EA /* SDWebImage.gif */; };
+		F1D97F0C1C194E4B0009F2EA /* 引导.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F071C194E4B0009F2EA /* 引导.gif */; };
+		F1D97F0D1C194E4B0009F2EA /* 横向移动.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F081C194E4B0009F2EA /* 横向移动.gif */; };
 		F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4C08E1C056879005531C1 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +135,11 @@
 		F1D97EFD1C19271F0009F2EA /* 冬天的秘密.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "冬天的秘密.mp3"; sourceTree = "<group>"; };
 		F1D97EFE1C19271F0009F2EA /* 我们不该这样的.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我们不该这样的.mp3"; sourceTree = "<group>"; };
 		F1D97EFF1C19271F0009F2EA /* 西海情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "西海情歌.mp3"; sourceTree = "<group>"; };
+		F1D97F041C194E4B0009F2EA /* AFNetWorking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AFNetWorking.gif; sourceTree = "<group>"; };
+		F1D97F051C194E4B0009F2EA /* changan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = changan.gif; sourceTree = "<group>"; };
+		F1D97F061C194E4B0009F2EA /* SDWebImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SDWebImage.gif; sourceTree = "<group>"; };
+		F1D97F071C194E4B0009F2EA /* 引导.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "引导.gif"; sourceTree = "<group>"; };
+		F1D97F081C194E4B0009F2EA /* 横向移动.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "横向移动.gif"; sourceTree = "<group>"; };
 		F1F4C08D1C056879005531C1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		F1F4C08E1C056879005531C1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		FBB3A61D06DCF4A680CB9912 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,6 +343,7 @@
 		F1A080421BFD73B900E008AD /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				F1D97F031C194E4B0009F2EA /* demoGif */,
 				F1D97EFC1C19271F0009F2EA /* music */,
 				F1D97EE71C19196F0009F2EA /* musicIcon */,
 				F13246911C0ECC5000936C07 /* add0227@2x.png */,
@@ -366,6 +377,18 @@
 				F1D97EFF1C19271F0009F2EA /* 西海情歌.mp3 */,
 			);
 			path = music;
+			sourceTree = "<group>";
+		};
+		F1D97F031C194E4B0009F2EA /* demoGif */ = {
+			isa = PBXGroup;
+			children = (
+				F1D97F041C194E4B0009F2EA /* AFNetWorking.gif */,
+				F1D97F051C194E4B0009F2EA /* changan.gif */,
+				F1D97F061C194E4B0009F2EA /* SDWebImage.gif */,
+				F1D97F071C194E4B0009F2EA /* 引导.gif */,
+				F1D97F081C194E4B0009F2EA /* 横向移动.gif */,
+			);
+			path = demoGif;
 			sourceTree = "<group>";
 		};
 		F1F4C0871C0566F1005531C1 /* category */ = {
@@ -503,16 +526,21 @@
 				F1D97EF81C19196F0009F2EA /* play.png in Resources */,
 				F1D97F001C19271F0009F2EA /* 冬天的秘密.mp3 in Resources */,
 				F1D97EF91C19196F0009F2EA /* play@2x.png in Resources */,
+				F1D97F0B1C194E4B0009F2EA /* SDWebImage.gif in Resources */,
 				F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */,
 				F1D97EF61C19196F0009F2EA /* pause.png in Resources */,
 				F1A080441BFD743600E008AD /* banner@2x.png in Resources */,
 				F141061A1BF878BA0007FA82 /* LaunchScreen.storyboard in Resources */,
 				F1D97EF21C19196F0009F2EA /* lastSong.png in Resources */,
+				F1D97F091C194E4B0009F2EA /* AFNetWorking.gif in Resources */,
 				F1D97F011C19271F0009F2EA /* 我们不该这样的.mp3 in Resources */,
 				F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */,
+				F1D97F0C1C194E4B0009F2EA /* 引导.gif in Resources */,
 				F1D97EF71C19196F0009F2EA /* pause@2x.png in Resources */,
 				F1D97EF41C19196F0009F2EA /* nextSong.png in Resources */,
 				F1D97EFA1C19196F0009F2EA /* stop.png in Resources */,
+				F1D97F0A1C194E4B0009F2EA /* changan.gif in Resources */,
+				F1D97F0D1C194E4B0009F2EA /* 横向移动.gif in Resources */,
 				F14106171BF878BA0007FA82 /* Assets.xcassets in Resources */,
 				F1D97EFB1C19196F0009F2EA /* stop@2x.png in Resources */,
 				F14106151BF878BA0007FA82 /* Main.storyboard in Resources */,
