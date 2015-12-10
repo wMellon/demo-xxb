@@ -12,3 +12,4 @@ AFNetWorking断点下载实现<br>
 测试分享SDK<br>
 pop测试例子，包含：错误输入；弹出；移动；翻转；变形；<br>
 测试音频，使用AVAudioPlayer与slider<br>
+ ![image](https://github.com/xxblsx/demo-xxb/blob/master/demo-xxb/resource/add0227%402x.png)
