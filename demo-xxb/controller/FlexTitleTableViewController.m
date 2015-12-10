@@ -30,6 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"";
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = YES;
     

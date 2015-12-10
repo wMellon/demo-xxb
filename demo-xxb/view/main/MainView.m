@@ -18,7 +18,8 @@
              @{@"title":@"AFNetWorking断点续传",@"class":@"AFNetWorkTestViewController"},
              @{@"title":@"仿QQ空间下拉的table",@"class":@"FlexTitleTableViewController"},
              @{@"title":@"测试分享SDK",@"class":@"TestShareSDKViewController"},
-             @{@"title":@"测试POP",@"class":@"POPTestViewController"}];
+             @{@"title":@"测试POP",@"class":@"POPTestViewController"},
+             @{@"title":@"测试音频",@"class":@"MusicTestViewController"}];
     
     
 }

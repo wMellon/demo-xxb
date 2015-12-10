@@ -31,6 +31,22 @@
 		F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080401BFD738F00E008AD /* FlexTitleTableViewController.m */; };
 		F1A080441BFD743600E008AD /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A080431BFD743600E008AD /* banner@2x.png */; };
 		F1A080861BFDC01000E008AD /* TestShareSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080851BFDC01000E008AD /* TestShareSDKViewController.m */; };
+		F1D97EE11C190B940009F2EA /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D97EDF1C190B940009F2EA /* MusicTestViewController.m */; };
+		F1D97EE21C190B940009F2EA /* MusicTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EE01C190B940009F2EA /* MusicTestViewController.xib */; };
+		F1D97EE41C190BDD0009F2EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D97EE31C190BDD0009F2EA /* AVFoundation.framework */; };
+		F1D97EF21C19196F0009F2EA /* lastSong.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EE81C19196F0009F2EA /* lastSong.png */; };
+		F1D97EF31C19196F0009F2EA /* lastSong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EE91C19196F0009F2EA /* lastSong@2x.png */; };
+		F1D97EF41C19196F0009F2EA /* nextSong.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EEA1C19196F0009F2EA /* nextSong.png */; };
+		F1D97EF51C19196F0009F2EA /* nextSong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EEB1C19196F0009F2EA /* nextSong@2x.png */; };
+		F1D97EF61C19196F0009F2EA /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EEC1C19196F0009F2EA /* pause.png */; };
+		F1D97EF71C19196F0009F2EA /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EED1C19196F0009F2EA /* pause@2x.png */; };
+		F1D97EF81C19196F0009F2EA /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EEE1C19196F0009F2EA /* play.png */; };
+		F1D97EF91C19196F0009F2EA /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EEF1C19196F0009F2EA /* play@2x.png */; };
+		F1D97EFA1C19196F0009F2EA /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EF01C19196F0009F2EA /* stop.png */; };
+		F1D97EFB1C19196F0009F2EA /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EF11C19196F0009F2EA /* stop@2x.png */; };
+		F1D97F001C19271F0009F2EA /* 冬天的秘密.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EFD1C19271F0009F2EA /* 冬天的秘密.mp3 */; };
+		F1D97F011C19271F0009F2EA /* 我们不该这样的.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EFE1C19271F0009F2EA /* 我们不该这样的.mp3 */; };
+		F1D97F021C19271F0009F2EA /* 西海情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EFF1C19271F0009F2EA /* 西海情歌.mp3 */; };
 		F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4C08E1C056879005531C1 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +113,23 @@
 		F1A080431BFD743600E008AD /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
 		F1A080841BFDC01000E008AD /* TestShareSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestShareSDKViewController.h; sourceTree = "<group>"; };
 		F1A080851BFDC01000E008AD /* TestShareSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestShareSDKViewController.m; sourceTree = "<group>"; };
+		F1D97EDE1C190B940009F2EA /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
+		F1D97EDF1C190B940009F2EA /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
+		F1D97EE01C190B940009F2EA /* MusicTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTestViewController.xib; sourceTree = "<group>"; };
+		F1D97EE31C190BDD0009F2EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1D97EE81C19196F0009F2EA /* lastSong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lastSong.png; sourceTree = "<group>"; };
+		F1D97EE91C19196F0009F2EA /* lastSong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lastSong@2x.png"; sourceTree = "<group>"; };
+		F1D97EEA1C19196F0009F2EA /* nextSong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextSong.png; sourceTree = "<group>"; };
+		F1D97EEB1C19196F0009F2EA /* nextSong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nextSong@2x.png"; sourceTree = "<group>"; };
+		F1D97EEC1C19196F0009F2EA /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F1D97EED1C19196F0009F2EA /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		F1D97EEE1C19196F0009F2EA /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F1D97EEF1C19196F0009F2EA /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		F1D97EF01C19196F0009F2EA /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		F1D97EF11C19196F0009F2EA /* stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop@2x.png"; sourceTree = "<group>"; };
+		F1D97EFD1C19271F0009F2EA /* 冬天的秘密.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "冬天的秘密.mp3"; sourceTree = "<group>"; };
+		F1D97EFE1C19271F0009F2EA /* 我们不该这样的.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我们不该这样的.mp3"; sourceTree = "<group>"; };
+		F1D97EFF1C19271F0009F2EA /* 西海情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "西海情歌.mp3"; sourceTree = "<group>"; };
 		F1F4C08D1C056879005531C1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		F1F4C08E1C056879005531C1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		FBB3A61D06DCF4A680CB9912 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D97EE41C190BDD0009F2EA /* AVFoundation.framework in Frameworks */,
 				16ACC0641D6DEAEA031D83B5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +174,7 @@
 		EA1A3E4462507740F092C634 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1D97EE31C190BDD0009F2EA /* AVFoundation.framework */,
 				FBB3A61D06DCF4A680CB9912 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -273,6 +308,9 @@
 				F15108331C0C36B9004BE0B5 /* POPTestViewController.h */,
 				F15108341C0C36B9004BE0B5 /* POPTestViewController.m */,
 				F10FD3E71C0D315400809572 /* POPTestViewController.xib */,
+				F1D97EDE1C190B940009F2EA /* MusicTestViewController.h */,
+				F1D97EDF1C190B940009F2EA /* MusicTestViewController.m */,
+				F1D97EE01C190B940009F2EA /* MusicTestViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -295,10 +333,39 @@
 		F1A080421BFD73B900E008AD /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				F1D97EFC1C19271F0009F2EA /* music */,
+				F1D97EE71C19196F0009F2EA /* musicIcon */,
 				F13246911C0ECC5000936C07 /* add0227@2x.png */,
 				F1A080431BFD743600E008AD /* banner@2x.png */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		F1D97EE71C19196F0009F2EA /* musicIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F1D97EE81C19196F0009F2EA /* lastSong.png */,
+				F1D97EE91C19196F0009F2EA /* lastSong@2x.png */,
+				F1D97EEA1C19196F0009F2EA /* nextSong.png */,
+				F1D97EEB1C19196F0009F2EA /* nextSong@2x.png */,
+				F1D97EEC1C19196F0009F2EA /* pause.png */,
+				F1D97EED1C19196F0009F2EA /* pause@2x.png */,
+				F1D97EEE1C19196F0009F2EA /* play.png */,
+				F1D97EEF1C19196F0009F2EA /* play@2x.png */,
+				F1D97EF01C19196F0009F2EA /* stop.png */,
+				F1D97EF11C19196F0009F2EA /* stop@2x.png */,
+			);
+			path = musicIcon;
+			sourceTree = "<group>";
+		};
+		F1D97EFC1C19271F0009F2EA /* music */ = {
+			isa = PBXGroup;
+			children = (
+				F1D97EFD1C19271F0009F2EA /* 冬天的秘密.mp3 */,
+				F1D97EFE1C19271F0009F2EA /* 我们不该这样的.mp3 */,
+				F1D97EFF1C19271F0009F2EA /* 西海情歌.mp3 */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 		F1F4C0871C0566F1005531C1 /* category */ = {
@@ -432,14 +499,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D97EF51C19196F0009F2EA /* nextSong@2x.png in Resources */,
+				F1D97EF81C19196F0009F2EA /* play.png in Resources */,
+				F1D97F001C19271F0009F2EA /* 冬天的秘密.mp3 in Resources */,
+				F1D97EF91C19196F0009F2EA /* play@2x.png in Resources */,
 				F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */,
+				F1D97EF61C19196F0009F2EA /* pause.png in Resources */,
 				F1A080441BFD743600E008AD /* banner@2x.png in Resources */,
 				F141061A1BF878BA0007FA82 /* LaunchScreen.storyboard in Resources */,
+				F1D97EF21C19196F0009F2EA /* lastSong.png in Resources */,
+				F1D97F011C19271F0009F2EA /* 我们不该这样的.mp3 in Resources */,
 				F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */,
+				F1D97EF71C19196F0009F2EA /* pause@2x.png in Resources */,
+				F1D97EF41C19196F0009F2EA /* nextSong.png in Resources */,
+				F1D97EFA1C19196F0009F2EA /* stop.png in Resources */,
 				F14106171BF878BA0007FA82 /* Assets.xcassets in Resources */,
+				F1D97EFB1C19196F0009F2EA /* stop@2x.png in Resources */,
 				F14106151BF878BA0007FA82 /* Main.storyboard in Resources */,
 				F13246921C0ECC5100936C07 /* add0227@2x.png in Resources */,
+				F1D97EE21C190B940009F2EA /* MusicTestViewController.xib in Resources */,
 				F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */,
+				F1D97EF31C19196F0009F2EA /* lastSong@2x.png in Resources */,
+				F1D97F021C19271F0009F2EA /* 西海情歌.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +587,7 @@
 				F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */,
 				F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */,
 				F141063F1BF879490007FA82 /* MainViewController.m in Sources */,
+				F1D97EE11C190B940009F2EA /* MusicTestViewController.m in Sources */,
 				F141060C1BF878BA0007FA82 /* main.m in Sources */,
 				F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */,
 				F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */,
@@ -657,10 +739,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo-xxb/demo-xxb.pch";
 				INFOPLIST_FILE = "demo-xxb/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.watermellon.demo-xxb";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watermellon.demo-xxb1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -676,10 +758,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo-xxb/demo-xxb.pch";
 				INFOPLIST_FILE = "demo-xxb/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.watermellon.demo-xxb";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.watermellon.demo-xxb1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
