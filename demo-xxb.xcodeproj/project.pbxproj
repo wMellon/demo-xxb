@@ -12,6 +12,12 @@
 		F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360231BF9B497005F109A /* XBSlidingViewController.m */; };
 		F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360261BF9B4B6005F109A /* SlidingTestViewController.m */; };
 		F13246921C0ECC5100936C07 /* add0227@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13246911C0ECC5000936C07 /* add0227@2x.png */; };
+		F13449F51C1E6129000450B8 /* MusicNetKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F13449F41C1E6129000450B8 /* MusicNetKit.m */; };
+		F13449F91C1E6136000450B8 /* LrcRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13449F71C1E6136000450B8 /* LrcRemoteViewController.m */; };
+		F13449FA1C1E6136000450B8 /* LrcRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13449F81C1E6136000450B8 /* LrcRemoteViewController.xib */; };
+		F1344A131C1E6D10000450B8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1344A121C1E6D10000450B8 /* CFNetwork.framework */; };
+		F1344A151C1E6D19000450B8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1344A141C1E6D19000450B8 /* AudioToolbox.framework */; };
+		F1344A171C1E6D22000450B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1344A161C1E6D22000450B8 /* QuartzCore.framework */; };
 		F13750661BFC076D00437F1C /* WebImgTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13750651BFC076D00437F1C /* WebImgTestViewController.m */; };
 		F141060C1BF878BA0007FA82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F141060B1BF878BA0007FA82 /* main.m */; };
 		F141060F1BF878BA0007FA82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F141060E1BF878BA0007FA82 /* AppDelegate.m */; };
@@ -25,6 +31,7 @@
 		F14106481BF87CED0007FA82 /* LongPressExchgCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F14106471BF87CED0007FA82 /* LongPressExchgCellVC.m */; };
 		F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F141064A1BF8B3D70007FA82 /* StartPagingVC.m */; };
 		F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15108341C0C36B9004BE0B5 /* POPTestViewController.m */; };
+		F1531C381C1FA42B00ED204D /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F1531C371C1FA42B00ED204D /* NSString+Common.m */; };
 		F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */; };
 		F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */; };
 		F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */; };
@@ -81,6 +88,14 @@
 		F11360251BF9B4B6005F109A /* SlidingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTestViewController.h; sourceTree = "<group>"; };
 		F11360261BF9B4B6005F109A /* SlidingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTestViewController.m; sourceTree = "<group>"; };
 		F13246911C0ECC5000936C07 /* add0227@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add0227@2x.png"; sourceTree = "<group>"; };
+		F13449F31C1E6129000450B8 /* MusicNetKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicNetKit.h; sourceTree = "<group>"; };
+		F13449F41C1E6129000450B8 /* MusicNetKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicNetKit.m; sourceTree = "<group>"; };
+		F13449F61C1E6136000450B8 /* LrcRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrcRemoteViewController.h; sourceTree = "<group>"; };
+		F13449F71C1E6136000450B8 /* LrcRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrcRemoteViewController.m; sourceTree = "<group>"; };
+		F13449F81C1E6136000450B8 /* LrcRemoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LrcRemoteViewController.xib; sourceTree = "<group>"; };
+		F1344A121C1E6D10000450B8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F1344A141C1E6D19000450B8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1344A161C1E6D22000450B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F13750641BFC076D00437F1C /* WebImgTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImgTestViewController.h; sourceTree = "<group>"; };
 		F13750651BFC076D00437F1C /* WebImgTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImgTestViewController.m; sourceTree = "<group>"; };
 		F14106071BF878BA0007FA82 /* demo-xxb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-xxb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +124,8 @@
 		F14106501BF8B55D0007FA82 /* demo-xxb.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-xxb.pch"; sourceTree = "<group>"; };
 		F15108331C0C36B9004BE0B5 /* POPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTestViewController.h; sourceTree = "<group>"; };
 		F15108341C0C36B9004BE0B5 /* POPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTestViewController.m; sourceTree = "<group>"; };
+		F1531C361C1FA42B00ED204D /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		F1531C371C1FA42B00ED204D /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebImgTestViewController.xib; sourceTree = "<group>"; };
 		F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFNetWorkTestViewController.xib; sourceTree = "<group>"; };
 		F1A0803C1BFD6F1100E008AD /* AFNetWorkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetWorkTestViewController.h; sourceTree = "<group>"; };
@@ -150,6 +167,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1344A171C1E6D22000450B8 /* QuartzCore.framework in Frameworks */,
+				F1344A151C1E6D19000450B8 /* AudioToolbox.framework in Frameworks */,
+				F1344A131C1E6D10000450B8 /* CFNetwork.framework in Frameworks */,
 				F1D97EE41C190BDD0009F2EA /* AVFoundation.framework in Frameworks */,
 				16ACC0641D6DEAEA031D83B5 /* libPods.a in Frameworks */,
 			);
@@ -184,6 +204,9 @@
 		EA1A3E4462507740F092C634 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1344A161C1E6D22000450B8 /* QuartzCore.framework */,
+				F1344A141C1E6D19000450B8 /* AudioToolbox.framework */,
+				F1344A121C1E6D10000450B8 /* CFNetwork.framework */,
 				F1D97EE31C190BDD0009F2EA /* AVFoundation.framework */,
 				FBB3A61D06DCF4A680CB9912 /* libPods.a */,
 			);
@@ -199,11 +222,36 @@
 			path = xbvendor;
 			sourceTree = "<group>";
 		};
-		F13750311BFC071100437F1C /* vendor */ = {
+		F13449F11C1E6129000450B8 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				F13449F21C1E6129000450B8 /* music */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		F13449F21C1E6129000450B8 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				F13449F31C1E6129000450B8 /* MusicNetKit.h */,
+				F13449F41C1E6129000450B8 /* MusicNetKit.m */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		F13449FB1C1E6194000450B8 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F13449FC1C1E6194000450B8 /* AudioPlayer */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		F13449FC1C1E6194000450B8 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = vendor;
+			path = AudioPlayer;
 			sourceTree = "<group>";
 		};
 		F14105FE1BF878B90007FA82 = {
@@ -231,10 +279,10 @@
 		F14106091BF878BA0007FA82 /* demo-xxb */ = {
 			isa = PBXGroup;
 			children = (
+				F13449FB1C1E6194000450B8 /* vendor */,
+				F13449F11C1E6129000450B8 /* network */,
 				F1F4C0871C0566F1005531C1 /* category */,
 				F1A080421BFD73B900E008AD /* resource */,
-				F1A0803B1BFD6EFA00E008AD /* network */,
-				F13750311BFC071100437F1C /* vendor */,
 				F11360211BF9B478005F109A /* xbvendor */,
 				F141064C1BF8B4100007FA82 /* common */,
 				F14106451BF87CB60007FA82 /* controller */,
@@ -321,6 +369,9 @@
 				F1D97EDE1C190B940009F2EA /* MusicTestViewController.h */,
 				F1D97EDF1C190B940009F2EA /* MusicTestViewController.m */,
 				F1D97EE01C190B940009F2EA /* MusicTestViewController.xib */,
+				F13449F61C1E6136000450B8 /* LrcRemoteViewController.h */,
+				F13449F71C1E6136000450B8 /* LrcRemoteViewController.m */,
+				F13449F81C1E6136000450B8 /* LrcRemoteViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -331,13 +382,6 @@
 				F141064D1BF8B42C0007FA82 /* Common.h */,
 			);
 			path = common;
-			sourceTree = "<group>";
-		};
-		F1A0803B1BFD6EFA00E008AD /* network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = network;
 			sourceTree = "<group>";
 		};
 		F1A080421BFD73B900E008AD /* resource */ = {
@@ -403,6 +447,8 @@
 		F1F4C0881C056783005531C1 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				F1531C361C1FA42B00ED204D /* NSString+Common.h */,
+				F1531C371C1FA42B00ED204D /* NSString+Common.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -530,6 +576,7 @@
 				F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */,
 				F1D97EF61C19196F0009F2EA /* pause.png in Resources */,
 				F1A080441BFD743600E008AD /* banner@2x.png in Resources */,
+				F13449FA1C1E6136000450B8 /* LrcRemoteViewController.xib in Resources */,
 				F141061A1BF878BA0007FA82 /* LaunchScreen.storyboard in Resources */,
 				F1D97EF21C19196F0009F2EA /* lastSong.png in Resources */,
 				F1D97F091C194E4B0009F2EA /* AFNetWorking.gif in Resources */,
@@ -610,16 +657,19 @@
 				F14106481BF87CED0007FA82 /* LongPressExchgCellVC.m in Sources */,
 				F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */,
 				F141060F1BF878BA0007FA82 /* AppDelegate.m in Sources */,
+				F13449F91C1E6136000450B8 /* LrcRemoteViewController.m in Sources */,
 				F14106441BF87B290007FA82 /* MainView.m in Sources */,
 				F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */,
 				F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */,
 				F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */,
+				F13449F51C1E6129000450B8 /* MusicNetKit.m in Sources */,
 				F141063F1BF879490007FA82 /* MainViewController.m in Sources */,
 				F1D97EE11C190B940009F2EA /* MusicTestViewController.m in Sources */,
 				F141060C1BF878BA0007FA82 /* main.m in Sources */,
 				F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */,
 				F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */,
 				F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */,
+				F1531C381C1FA42B00ED204D /* NSString+Common.m in Sources */,
 				F1A080861BFDC01000E008AD /* TestShareSDKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

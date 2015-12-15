@@ -10,6 +10,9 @@
 #define demo_xxb_pch
 
 #import "Common.h"
+
+#import "NSString+Common.h"
+
 #import "UIView+Frame.h"
 
 #endif /* demo_xxb_pch */

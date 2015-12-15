@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>StreamingKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3832FF26BCF89984E4AA2B6EE79C5BC5</key>
+		<key>3C341907595D9DD9469F6ECF2BA50D9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C8A191E11BF25C38D81C1964A47158D2</key>
+		<key>A5A1F91EFB609DE0BBD192BF5902E4D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1240771121E19EB17CF6402DA0CF7C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,3 +14,6 @@ pod 'ShareSDK3/ShareSDKUI'
 pod 'ShareSDK3/ShareSDKPlatforms/QQ'
 
 pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+
+#远程音频
+pod 'StreamingKit'
