@@ -8,6 +8,8 @@
 
 #import "MainViewController.h"
 #import "MainView.h"
+#import "XBSlidingViewController.h"
+#import "SlidingTestViewController.h"
 
 @interface MainViewController ()
 
@@ -24,7 +26,6 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
     
     self.dataSource = [MainView loadDataSource];
-    
 }
 
 #pragma mark - delegate
@@ -53,8 +54,34 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSDictionary *dict = self.dataSource[indexPath.row];
     NSString *className = dict[@"class"];
-    UIViewController *controller = [[NSClassFromString(className) alloc] init];
-    controller.title = dict[@"title"];
+    UIViewController *controller;
+    if([className isEqualToString:@"SlidingTestViewController"]){
+        XBSlidingViewController *vc = [[XBSlidingViewController alloc] init];
+        
+        SlidingTestViewController *t1 = [[SlidingTestViewController alloc] init];
+        t1.title = @"电影";
+        t1.view.backgroundColor = [UIColor brownColor];
+        
+        SlidingTestViewController *t2 = [[SlidingTestViewController alloc] init];
+        t2.title = @"运动";
+        t2.view.backgroundColor = [UIColor redColor];
+        
+        SlidingTestViewController *t3 = [[SlidingTestViewController alloc] init];
+        t3.title = @"美食";
+        t3.view.backgroundColor = [UIColor greenColor];
+        
+        SlidingTestViewController *t4 = [[SlidingTestViewController alloc] init];
+        t4.title = @"睡觉";
+        t4.view.backgroundColor = [UIColor orangeColor];
+        
+        vc.controllers = @[t1,t2,t3,t4];
+        vc.unselectedLabelColor = [UIColor brownColor];
+        vc.selectedLabelColor = [UIColor redColor];
+        controller = vc;
+    }else{
+        controller = [[NSClassFromString(className) alloc] init];
+        controller.title = dict[@"title"];
+    }
     [self.navigationController pushViewController:controller animated:YES];
 }
 

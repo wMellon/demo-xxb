@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-demo-xxb.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3C341907595D9DD9469F6ECF2BA50D9E</key>
+		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>47C800E42623009B7192B025B3DD25A1</key>
+		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5352D432641F0656C90741034E32F31E</key>
+		<key>5E7B45F534968851E56F43BB49FF20C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5A1F91EFB609DE0BBD192BF5902E4D8</key>
+		<key>64BA7BAC5E760AEA00FC7B68C5CAE591</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D1240771121E19EB17CF6402DA0CF7C6</key>
+		<key>928F21E60F01B21CC8BC882A43FC5CB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9714A89D5FB5602D4B7952CAE0716B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0E0486B961A976D56DC3206ED36BC71</key>
 		<dict>
 			<key>primary</key>
 			<true/>

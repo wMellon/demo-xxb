@@ -20,7 +20,7 @@
              @{@"title":@"测试分享SDK",@"class":@"TestShareSDKViewController"},
              @{@"title":@"测试POP",@"class":@"POPTestViewController"},
              @{@"title":@"测试音频",@"class":@"MusicTestViewController"},
-             @{@"title":@"远程歌词音频",@"class":@"LrcRemoteViewController"}];
+             @{@"title":@"测试FD",@"class":@"TestFDTemplateLayoutCell"}];
     
     
 }

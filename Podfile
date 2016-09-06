@@ -1,8 +1,10 @@
+target ‘demo-xxb’ do
 platform:ios,'7.0'
-pod 'AFNetworking','~>2.0'
-pod 'SDWebImage', '~>3.7'
-pod 'pop', '~> 1.0'
-
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'pop'
+pod 'UITableView+FDTemplateLayoutCell' #计算cell高度
+pod 'Masonry'
 
 # 主模块(必须)
 pod 'ShareSDK3'
@@ -17,3 +19,4 @@ pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
 
 #远程音频
 pod 'StreamingKit'
+end

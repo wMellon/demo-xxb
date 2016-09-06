@@ -41,7 +41,7 @@ typedef NS_OPTIONS(NSUInteger, SDWebImageOptions) {
      * This option helps deal with images changing behind the same request URL, e.g. Facebook graph api profile pics.
      * If a cached image is refreshed, the completion block is called once with the cached image and again with the final image.
      *
-     *  .
+     * Use this flag only if you can't make your URLs static with embeded cache busting parameter.
      */
     SDWebImageRefreshCached = 1 << 4,
 

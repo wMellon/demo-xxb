@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16ACC0641D6DEAEA031D83B5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB3A61D06DCF4A680CB9912 /* libPods.a */; };
+		7164C0BECED5F01EE2FA77E2 /* libPods-demo-xxb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ABFE932C8B624F4809ED8D /* libPods-demo-xxb.a */; };
 		F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10FD3E71C0D315400809572 /* POPTestViewController.xib */; };
 		F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360231BF9B497005F109A /* XBSlidingViewController.m */; };
 		F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360261BF9B4B6005F109A /* SlidingTestViewController.m */; };
@@ -33,6 +33,9 @@
 		F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15108341C0C36B9004BE0B5 /* POPTestViewController.m */; };
 		F1531C381C1FA42B00ED204D /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F1531C371C1FA42B00ED204D /* NSString+Common.m */; };
 		F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */; };
+		F167DFF81C23B8B90054F7A9 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F167DFF61C23B8B90054F7A9 /* LocationViewController.m */; };
+		F167DFF91C23B8B90054F7A9 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F167DFF71C23B8B90054F7A9 /* LocationViewController.xib */; };
+		F167DFFB1C23B8F90054F7A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F167DFFA1C23B8F90054F7A9 /* CoreLocation.framework */; };
 		F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */; };
 		F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */; };
 		F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080401BFD738F00E008AD /* FlexTitleTableViewController.m */; };
@@ -59,6 +62,8 @@
 		F1D97F0B1C194E4B0009F2EA /* SDWebImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F061C194E4B0009F2EA /* SDWebImage.gif */; };
 		F1D97F0C1C194E4B0009F2EA /* 引导.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F071C194E4B0009F2EA /* 引导.gif */; };
 		F1D97F0D1C194E4B0009F2EA /* 横向移动.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F081C194E4B0009F2EA /* 横向移动.gif */; };
+		F1F2BC031D7DB5A000E69997 /* TestFDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F2BC021D7DB5A000E69997 /* TestFDTemplateLayoutCell.m */; };
+		F1F2BC061D7DB5D700E69997 /* FDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F2BC051D7DB5D700E69997 /* FDCell.m */; };
 		F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4C08E1C056879005531C1 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
@@ -80,8 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E53AF0DAE67E6B61893BB74 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C4DA567F443D122ED4B39E33 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		24ABFE932C8B624F4809ED8D /* libPods-demo-xxb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo-xxb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1D74401FF836B93049EB0A /* Pods-demo-xxb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-xxb.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo-xxb/Pods-demo-xxb.release.xcconfig"; sourceTree = "<group>"; };
+		A58A342231FFBB5D47DB5C47 /* Pods-demo-xxb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-xxb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo-xxb/Pods-demo-xxb.debug.xcconfig"; sourceTree = "<group>"; };
 		F10FD3E71C0D315400809572 /* POPTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POPTestViewController.xib; sourceTree = "<group>"; };
 		F11360221BF9B497005F109A /* XBSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSlidingViewController.h; sourceTree = "<group>"; };
 		F11360231BF9B497005F109A /* XBSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSlidingViewController.m; sourceTree = "<group>"; };
@@ -127,6 +133,10 @@
 		F1531C361C1FA42B00ED204D /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
 		F1531C371C1FA42B00ED204D /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebImgTestViewController.xib; sourceTree = "<group>"; };
+		F167DFF51C23B8B90054F7A9 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		F167DFF61C23B8B90054F7A9 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		F167DFF71C23B8B90054F7A9 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		F167DFFA1C23B8F90054F7A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFNetWorkTestViewController.xib; sourceTree = "<group>"; };
 		F1A0803C1BFD6F1100E008AD /* AFNetWorkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetWorkTestViewController.h; sourceTree = "<group>"; };
 		F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkTestViewController.m; sourceTree = "<group>"; };
@@ -157,9 +167,12 @@
 		F1D97F061C194E4B0009F2EA /* SDWebImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SDWebImage.gif; sourceTree = "<group>"; };
 		F1D97F071C194E4B0009F2EA /* 引导.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "引导.gif"; sourceTree = "<group>"; };
 		F1D97F081C194E4B0009F2EA /* 横向移动.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "横向移动.gif"; sourceTree = "<group>"; };
+		F1F2BC011D7DB5A000E69997 /* TestFDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFDTemplateLayoutCell.h; sourceTree = "<group>"; };
+		F1F2BC021D7DB5A000E69997 /* TestFDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFDTemplateLayoutCell.m; sourceTree = "<group>"; };
+		F1F2BC041D7DB5D700E69997 /* FDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCell.h; sourceTree = "<group>"; };
+		F1F2BC051D7DB5D700E69997 /* FDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCell.m; sourceTree = "<group>"; };
 		F1F4C08D1C056879005531C1 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		F1F4C08E1C056879005531C1 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		FBB3A61D06DCF4A680CB9912 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,11 +180,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F167DFFB1C23B8F90054F7A9 /* CoreLocation.framework in Frameworks */,
 				F1344A171C1E6D22000450B8 /* QuartzCore.framework in Frameworks */,
 				F1344A151C1E6D19000450B8 /* AudioToolbox.framework in Frameworks */,
 				F1344A131C1E6D10000450B8 /* CFNetwork.framework in Frameworks */,
 				F1D97EE41C190BDD0009F2EA /* AVFoundation.framework in Frameworks */,
-				16ACC0641D6DEAEA031D83B5 /* libPods.a in Frameworks */,
+				7164C0BECED5F01EE2FA77E2 /* libPods-demo-xxb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,11 +206,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A1CF4392479C9F14B40134F /* Pods */ = {
+		766791CBBB848C7F27C3F41A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E53AF0DAE67E6B61893BB74 /* Pods.debug.xcconfig */,
-				C4DA567F443D122ED4B39E33 /* Pods.release.xcconfig */,
+				A58A342231FFBB5D47DB5C47 /* Pods-demo-xxb.debug.xcconfig */,
+				4C1D74401FF836B93049EB0A /* Pods-demo-xxb.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -204,11 +218,12 @@
 		EA1A3E4462507740F092C634 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F167DFFA1C23B8F90054F7A9 /* CoreLocation.framework */,
 				F1344A161C1E6D22000450B8 /* QuartzCore.framework */,
 				F1344A141C1E6D19000450B8 /* AudioToolbox.framework */,
 				F1344A121C1E6D10000450B8 /* CFNetwork.framework */,
 				F1D97EE31C190BDD0009F2EA /* AVFoundation.framework */,
-				FBB3A61D06DCF4A680CB9912 /* libPods.a */,
+				24ABFE932C8B624F4809ED8D /* libPods-demo-xxb.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,8 +276,8 @@
 				F14106231BF878BA0007FA82 /* demo-xxbTests */,
 				F141062E1BF878BA0007FA82 /* demo-xxbUITests */,
 				F14106081BF878BA0007FA82 /* Products */,
-				2A1CF4392479C9F14B40134F /* Pods */,
 				EA1A3E4462507740F092C634 /* Frameworks */,
+				766791CBBB848C7F27C3F41A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,6 +346,8 @@
 			isa = PBXGroup;
 			children = (
 				F14106411BF87B090007FA82 /* main */,
+				F1F2BC041D7DB5D700E69997 /* FDCell.h */,
+				F1F2BC051D7DB5D700E69997 /* FDCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -372,6 +389,11 @@
 				F13449F61C1E6136000450B8 /* LrcRemoteViewController.h */,
 				F13449F71C1E6136000450B8 /* LrcRemoteViewController.m */,
 				F13449F81C1E6136000450B8 /* LrcRemoteViewController.xib */,
+				F167DFF51C23B8B90054F7A9 /* LocationViewController.h */,
+				F167DFF61C23B8B90054F7A9 /* LocationViewController.m */,
+				F167DFF71C23B8B90054F7A9 /* LocationViewController.xib */,
+				F1F2BC011D7DB5A000E69997 /* TestFDTemplateLayoutCell.h */,
+				F1F2BC021D7DB5A000E69997 /* TestFDTemplateLayoutCell.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -469,11 +491,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F14106341BF878BA0007FA82 /* Build configuration list for PBXNativeTarget "demo-xxb" */;
 			buildPhases = (
-				D2DD9C24CBF0063D3C904983 /* Check Pods Manifest.lock */,
+				C4B6BB6A2443FC680FB0A372 /* 📦 Check Pods Manifest.lock */,
 				F14106031BF878B90007FA82 /* Sources */,
 				F14106041BF878B90007FA82 /* Frameworks */,
 				F14106051BF878B90007FA82 /* Resources */,
-				47FBCCAD569024F717BA3B0D /* Copy Pods Resources */,
+				FF4200EFD906D18BC4408B29 /* 📦 Embed Pods Frameworks */,
+				B288902A6F891C26AA5EEA8C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -596,6 +619,7 @@
 				F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */,
 				F1D97EF31C19196F0009F2EA /* lastSong@2x.png in Resources */,
 				F1D97F021C19271F0009F2EA /* 西海情歌.mp3 in Resources */,
+				F167DFF91C23B8B90054F7A9 /* LocationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,34 +640,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		47FBCCAD569024F717BA3B0D /* Copy Pods Resources */ = {
+		B288902A6F891C26AA5EEA8C /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo-xxb/Pods-demo-xxb-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2DD9C24CBF0063D3C904983 /* Check Pods Manifest.lock */ = {
+		C4B6BB6A2443FC680FB0A372 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4200EFD906D18BC4408B29 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo-xxb/Pods-demo-xxb-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -658,10 +697,12 @@
 				F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */,
 				F141060F1BF878BA0007FA82 /* AppDelegate.m in Sources */,
 				F13449F91C1E6136000450B8 /* LrcRemoteViewController.m in Sources */,
+				F1F2BC061D7DB5D700E69997 /* FDCell.m in Sources */,
 				F14106441BF87B290007FA82 /* MainView.m in Sources */,
 				F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */,
 				F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */,
 				F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */,
+				F1F2BC031D7DB5A000E69997 /* TestFDTemplateLayoutCell.m in Sources */,
 				F13449F51C1E6129000450B8 /* MusicNetKit.m in Sources */,
 				F141063F1BF879490007FA82 /* MainViewController.m in Sources */,
 				F1D97EE11C190B940009F2EA /* MusicTestViewController.m in Sources */,
@@ -671,6 +712,7 @@
 				F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */,
 				F1531C381C1FA42B00ED204D /* NSString+Common.m in Sources */,
 				F1A080861BFDC01000E008AD /* TestShareSDKViewController.m in Sources */,
+				F167DFF81C23B8B90054F7A9 /* LocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,7 +851,7 @@
 		};
 		F14106351BF878BA0007FA82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E53AF0DAE67E6B61893BB74 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A58A342231FFBB5D47DB5C47 /* Pods-demo-xxb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -820,6 +862,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
+				New_Setting1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.watermellon.demo-xxb1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -828,7 +871,7 @@
 		};
 		F14106361BF878BA0007FA82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4DA567F443D122ED4B39E33 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4C1D74401FF836B93049EB0A /* Pods-demo-xxb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -839,6 +882,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
+				New_Setting1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.watermellon.demo-xxb1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

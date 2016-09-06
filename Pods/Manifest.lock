@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Masonry (1.0.1)
   - pop (1.0.8)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
@@ -31,22 +32,29 @@ PODS:
   - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.1.3)
   - ShareSDK3/ShareSDKUI (3.1.3)
   - StreamingKit (0.1.28)
+  - UITableView+FDTemplateLayoutCell (1.4)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.0)
-  - pop (~> 1.0)
-  - SDWebImage (~> 3.7)
+  - AFNetworking
+  - Masonry
+  - pop
+  - SDWebImage
   - ShareSDK3
   - ShareSDK3/ShareSDKPlatforms/QQ
   - ShareSDK3/ShareSDKPlatforms/SinaWeibo
   - ShareSDK3/ShareSDKUI
   - StreamingKit
+  - UITableView+FDTemplateLayoutCell
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   ShareSDK3: 3e682c2309b955492ac8c0ca5603cb11470fac6f
   StreamingKit: 3b9c78009275ef1caf198bae44cfb982fee65d4d
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 13e67b3166c3911af00d91450eb0d3782b393759
+
+COCOAPODS: 1.0.0
