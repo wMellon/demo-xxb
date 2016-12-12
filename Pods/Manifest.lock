@@ -22,6 +22,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.0.1)
   - pop (1.0.8)
+  - SDAutoLayout (2.1.7)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
@@ -38,6 +39,7 @@ DEPENDENCIES:
   - AFNetworking
   - Masonry
   - pop
+  - SDAutoLayout (~> 2.1.4)
   - SDWebImage
   - ShareSDK3
   - ShareSDK3/ShareSDKPlatforms/QQ
@@ -50,11 +52,12 @@ SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   ShareSDK3: 3e682c2309b955492ac8c0ca5603cb11470fac6f
   StreamingKit: 3b9c78009275ef1caf198bae44cfb982fee65d4d
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
 
-PODFILE CHECKSUM: 13e67b3166c3911af00d91450eb0d3782b393759
+PODFILE CHECKSUM: 6a2f305585ec8ed6325b183316e0caf97e404d66
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1

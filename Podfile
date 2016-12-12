@@ -19,4 +19,6 @@ pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
 
 #远程音频
 pod 'StreamingKit'
+
+pod 'SDAutoLayout','~>2.1.4'
 end

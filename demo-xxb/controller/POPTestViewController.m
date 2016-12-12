@@ -242,7 +242,7 @@
         [_addImageView.layer pop_addAnimation:rotation forKey:@"unrotation"];
         
         POPBasicAnimation *hideMenu = [POPBasicAnimation animationWithPropertyNamed:kPOPViewFrame];
-        hideMenu.fromValue = [NSValue valueWithCGRect:CGRectMake(0, 0, SCREEN_WIDTH, 40)];
+        hideMenu.fromValue = [NSValue valueWithCGRect:CGRectMake(0, 64, SCREEN_WIDTH, 40)];
         hideMenu.toValue = [NSValue valueWithCGRect:CGRectMake(SCREEN_WIDTH, 0, 0, 0)];
         [_menu pop_addAnimation:hideMenu forKey:@"hideMenu"];
         _isMenuShow = NO;
@@ -254,7 +254,7 @@
         POPSpringAnimation *showMenu = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
         showMenu.springBounciness = 5;//值越大，摆动幅度越明显
         showMenu.fromValue = [NSValue valueWithCGRect:CGRectMake(SCREEN_WIDTH, 0, 0, 0)];
-        showMenu.toValue = [NSValue valueWithCGRect:CGRectMake(0, 0, SCREEN_WIDTH, 40)];
+        showMenu.toValue = [NSValue valueWithCGRect:CGRectMake(0, 64, SCREEN_WIDTH, 40)];
         [_menu pop_addAnimation:showMenu forKey:@"showMenu"];
         _isMenuShow = YES;
     }

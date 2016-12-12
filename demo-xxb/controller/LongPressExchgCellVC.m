@@ -21,7 +21,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.tableView.tableFooterView = [[UIView alloc] init];
     
-    self.dataSource = [@[@"d22ata1",@"da2t2a12",@"da6ta13",@"dat4a14",@"data915",@"data16",@"data71",@"data12",@"datea231",@"data241"] mutableCopy];
+    self.dataSource = [@[@"变形金钢",@"速度与激情",@"玩命速递",@"复仇者联盟",@"钢铁侠",@"神盾局特工",@"绿巨人",@"雷神",@"火星救援",@"美国队长",@"寻龙诀",@"007幽灵党"] mutableCopy];
     
     UILongPressGestureRecognizer *recognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
     [self.tableView addGestureRecognizer:recognizer];
@@ -135,6 +135,10 @@
     }
     cell.textLabel.text = self.dataSource[indexPath.row];
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 #pragma mark UITableViewDelegate

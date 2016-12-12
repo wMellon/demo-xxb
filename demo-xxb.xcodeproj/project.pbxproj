@@ -11,6 +11,8 @@
 		F10FD3E81C0D315400809572 /* POPTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10FD3E71C0D315400809572 /* POPTestViewController.xib */; };
 		F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360231BF9B497005F109A /* XBSlidingViewController.m */; };
 		F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11360261BF9B4B6005F109A /* SlidingTestViewController.m */; };
+		F12FA6DC1DBDF243005A5101 /* XibTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12FA6DA1DBDF243005A5101 /* XibTestViewController.m */; };
+		F12FA6DD1DBDF243005A5101 /* XibTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12FA6DB1DBDF243005A5101 /* XibTestViewController.xib */; };
 		F13246921C0ECC5100936C07 /* add0227@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13246911C0ECC5000936C07 /* add0227@2x.png */; };
 		F13449F51C1E6129000450B8 /* MusicNetKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F13449F41C1E6129000450B8 /* MusicNetKit.m */; };
 		F13449F91C1E6136000450B8 /* LrcRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13449F71C1E6136000450B8 /* LrcRemoteViewController.m */; };
@@ -30,6 +32,8 @@
 		F14106441BF87B290007FA82 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14106431BF87B290007FA82 /* MainView.m */; };
 		F14106481BF87CED0007FA82 /* LongPressExchgCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F14106471BF87CED0007FA82 /* LongPressExchgCellVC.m */; };
 		F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F141064A1BF8B3D70007FA82 /* StartPagingVC.m */; };
+		F14351091D90CDE50040D52A /* SDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F14351081D90CDE50040D52A /* SDCell.m */; };
+		F14351101D9134550040D52A /* PulseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F143510F1D9134550040D52A /* PulseTest.m */; };
 		F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15108341C0C36B9004BE0B5 /* POPTestViewController.m */; };
 		F1531C381C1FA42B00ED204D /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F1531C371C1FA42B00ED204D /* NSString+Common.m */; };
 		F15DD7FB1C1554190021E295 /* WebImgTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DD7FA1C1554190021E295 /* WebImgTestViewController.xib */; };
@@ -37,10 +41,13 @@
 		F167DFF91C23B8B90054F7A9 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F167DFF71C23B8B90054F7A9 /* LocationViewController.xib */; };
 		F167DFFB1C23B8F90054F7A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F167DFFA1C23B8F90054F7A9 /* CoreLocation.framework */; };
 		F16929D81C101908007FC848 /* AFNetWorkTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */; };
+		F19B3E9E1DFEDC7000DEED53 /* jspatch.js in Resources */ = {isa = PBXBuildFile; fileRef = F19B3E9D1DFEDC7000DEED53 /* jspatch.js */; };
 		F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */; };
 		F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080401BFD738F00E008AD /* FlexTitleTableViewController.m */; };
 		F1A080441BFD743600E008AD /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A080431BFD743600E008AD /* banner@2x.png */; };
 		F1A080861BFDC01000E008AD /* TestShareSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A080851BFDC01000E008AD /* TestShareSDKViewController.m */; };
+		F1C440471D93D8D4001C2C9D /* AnimationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C440451D93D8D4001C2C9D /* AnimationTest.m */; };
+		F1C440481D93D8D4001C2C9D /* AnimationTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1C440461D93D8D4001C2C9D /* AnimationTest.xib */; };
 		F1D97EE11C190B940009F2EA /* MusicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D97EDF1C190B940009F2EA /* MusicTestViewController.m */; };
 		F1D97EE21C190B940009F2EA /* MusicTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D97EE01C190B940009F2EA /* MusicTestViewController.xib */; };
 		F1D97EE41C190BDD0009F2EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D97EE31C190BDD0009F2EA /* AVFoundation.framework */; };
@@ -62,6 +69,9 @@
 		F1D97F0B1C194E4B0009F2EA /* SDWebImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F061C194E4B0009F2EA /* SDWebImage.gif */; };
 		F1D97F0C1C194E4B0009F2EA /* 引导.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F071C194E4B0009F2EA /* 引导.gif */; };
 		F1D97F0D1C194E4B0009F2EA /* 横向移动.gif in Resources */ = {isa = PBXBuildFile; fileRef = F1D97F081C194E4B0009F2EA /* 横向移动.gif */; };
+		F1E227A81D8693D5008271A9 /* SDAutoLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E227A71D8693D5008271A9 /* SDAutoLayoutTest.m */; };
+		F1E227AB1D869B16008271A9 /* MasonryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E227AA1D869B16008271A9 /* MasonryTest.m */; };
+		F1EB75111D87D65D006A6C71 /* AccelerometerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EB75101D87D65D006A6C71 /* AccelerometerTest.m */; };
 		F1F2BC031D7DB5A000E69997 /* TestFDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F2BC021D7DB5A000E69997 /* TestFDTemplateLayoutCell.m */; };
 		F1F2BC061D7DB5D700E69997 /* FDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F2BC051D7DB5D700E69997 /* FDCell.m */; };
 		F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4C08E1C056879005531C1 /* UIView+Frame.m */; };
@@ -93,6 +103,9 @@
 		F11360231BF9B497005F109A /* XBSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSlidingViewController.m; sourceTree = "<group>"; };
 		F11360251BF9B4B6005F109A /* SlidingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTestViewController.h; sourceTree = "<group>"; };
 		F11360261BF9B4B6005F109A /* SlidingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTestViewController.m; sourceTree = "<group>"; };
+		F12FA6D91DBDF243005A5101 /* XibTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibTestViewController.h; sourceTree = "<group>"; };
+		F12FA6DA1DBDF243005A5101 /* XibTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibTestViewController.m; sourceTree = "<group>"; };
+		F12FA6DB1DBDF243005A5101 /* XibTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTestViewController.xib; sourceTree = "<group>"; };
 		F13246911C0ECC5000936C07 /* add0227@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add0227@2x.png"; sourceTree = "<group>"; };
 		F13449F31C1E6129000450B8 /* MusicNetKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicNetKit.h; sourceTree = "<group>"; };
 		F13449F41C1E6129000450B8 /* MusicNetKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicNetKit.m; sourceTree = "<group>"; };
@@ -128,6 +141,10 @@
 		F141064A1BF8B3D70007FA82 /* StartPagingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPagingVC.m; sourceTree = "<group>"; };
 		F141064D1BF8B42C0007FA82 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		F14106501BF8B55D0007FA82 /* demo-xxb.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-xxb.pch"; sourceTree = "<group>"; };
+		F14351071D90CDE50040D52A /* SDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCell.h; sourceTree = "<group>"; };
+		F14351081D90CDE50040D52A /* SDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCell.m; sourceTree = "<group>"; };
+		F143510E1D9134550040D52A /* PulseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulseTest.h; sourceTree = "<group>"; };
+		F143510F1D9134550040D52A /* PulseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulseTest.m; sourceTree = "<group>"; };
 		F15108331C0C36B9004BE0B5 /* POPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTestViewController.h; sourceTree = "<group>"; };
 		F15108341C0C36B9004BE0B5 /* POPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTestViewController.m; sourceTree = "<group>"; };
 		F1531C361C1FA42B00ED204D /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
@@ -138,6 +155,7 @@
 		F167DFF71C23B8B90054F7A9 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
 		F167DFFA1C23B8F90054F7A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F16929D71C101908007FC848 /* AFNetWorkTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AFNetWorkTestViewController.xib; sourceTree = "<group>"; };
+		F19B3E9D1DFEDC7000DEED53 /* jspatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jspatch.js; sourceTree = "<group>"; };
 		F1A0803C1BFD6F1100E008AD /* AFNetWorkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetWorkTestViewController.h; sourceTree = "<group>"; };
 		F1A0803D1BFD6F1100E008AD /* AFNetWorkTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkTestViewController.m; sourceTree = "<group>"; };
 		F1A0803F1BFD738F00E008AD /* FlexTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexTitleTableViewController.h; sourceTree = "<group>"; };
@@ -145,6 +163,9 @@
 		F1A080431BFD743600E008AD /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
 		F1A080841BFDC01000E008AD /* TestShareSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestShareSDKViewController.h; sourceTree = "<group>"; };
 		F1A080851BFDC01000E008AD /* TestShareSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestShareSDKViewController.m; sourceTree = "<group>"; };
+		F1C440441D93D8D4001C2C9D /* AnimationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTest.h; sourceTree = "<group>"; };
+		F1C440451D93D8D4001C2C9D /* AnimationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTest.m; sourceTree = "<group>"; };
+		F1C440461D93D8D4001C2C9D /* AnimationTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTest.xib; sourceTree = "<group>"; };
 		F1D97EDE1C190B940009F2EA /* MusicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTestViewController.h; sourceTree = "<group>"; };
 		F1D97EDF1C190B940009F2EA /* MusicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTestViewController.m; sourceTree = "<group>"; };
 		F1D97EE01C190B940009F2EA /* MusicTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTestViewController.xib; sourceTree = "<group>"; };
@@ -167,6 +188,12 @@
 		F1D97F061C194E4B0009F2EA /* SDWebImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SDWebImage.gif; sourceTree = "<group>"; };
 		F1D97F071C194E4B0009F2EA /* 引导.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "引导.gif"; sourceTree = "<group>"; };
 		F1D97F081C194E4B0009F2EA /* 横向移动.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "横向移动.gif"; sourceTree = "<group>"; };
+		F1E227A61D8693D5008271A9 /* SDAutoLayoutTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayoutTest.h; sourceTree = "<group>"; };
+		F1E227A71D8693D5008271A9 /* SDAutoLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAutoLayoutTest.m; sourceTree = "<group>"; };
+		F1E227A91D869B16008271A9 /* MasonryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryTest.h; sourceTree = "<group>"; };
+		F1E227AA1D869B16008271A9 /* MasonryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryTest.m; sourceTree = "<group>"; };
+		F1EB750F1D87D65D006A6C71 /* AccelerometerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerTest.h; sourceTree = "<group>"; };
+		F1EB75101D87D65D006A6C71 /* AccelerometerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerTest.m; sourceTree = "<group>"; };
 		F1F2BC011D7DB5A000E69997 /* TestFDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFDTemplateLayoutCell.h; sourceTree = "<group>"; };
 		F1F2BC021D7DB5A000E69997 /* TestFDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFDTemplateLayoutCell.m; sourceTree = "<group>"; };
 		F1F2BC041D7DB5D700E69997 /* FDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCell.h; sourceTree = "<group>"; };
@@ -348,6 +375,8 @@
 				F14106411BF87B090007FA82 /* main */,
 				F1F2BC041D7DB5D700E69997 /* FDCell.h */,
 				F1F2BC051D7DB5D700E69997 /* FDCell.m */,
+				F14351071D90CDE50040D52A /* SDCell.h */,
+				F14351081D90CDE50040D52A /* SDCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -394,6 +423,20 @@
 				F167DFF71C23B8B90054F7A9 /* LocationViewController.xib */,
 				F1F2BC011D7DB5A000E69997 /* TestFDTemplateLayoutCell.h */,
 				F1F2BC021D7DB5A000E69997 /* TestFDTemplateLayoutCell.m */,
+				F1E227A61D8693D5008271A9 /* SDAutoLayoutTest.h */,
+				F1E227A71D8693D5008271A9 /* SDAutoLayoutTest.m */,
+				F1E227A91D869B16008271A9 /* MasonryTest.h */,
+				F1E227AA1D869B16008271A9 /* MasonryTest.m */,
+				F1EB750F1D87D65D006A6C71 /* AccelerometerTest.h */,
+				F1EB75101D87D65D006A6C71 /* AccelerometerTest.m */,
+				F143510E1D9134550040D52A /* PulseTest.h */,
+				F143510F1D9134550040D52A /* PulseTest.m */,
+				F1C440441D93D8D4001C2C9D /* AnimationTest.h */,
+				F1C440451D93D8D4001C2C9D /* AnimationTest.m */,
+				F1C440461D93D8D4001C2C9D /* AnimationTest.xib */,
+				F12FA6D91DBDF243005A5101 /* XibTestViewController.h */,
+				F12FA6DA1DBDF243005A5101 /* XibTestViewController.m */,
+				F12FA6DB1DBDF243005A5101 /* XibTestViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -414,6 +457,7 @@
 				F1D97EE71C19196F0009F2EA /* musicIcon */,
 				F13246911C0ECC5000936C07 /* add0227@2x.png */,
 				F1A080431BFD743600E008AD /* banner@2x.png */,
+				F19B3E9D1DFEDC7000DEED53 /* jspatch.js */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -491,12 +535,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F14106341BF878BA0007FA82 /* Build configuration list for PBXNativeTarget "demo-xxb" */;
 			buildPhases = (
-				C4B6BB6A2443FC680FB0A372 /* 📦 Check Pods Manifest.lock */,
+				C4B6BB6A2443FC680FB0A372 /* [CP] Check Pods Manifest.lock */,
 				F14106031BF878B90007FA82 /* Sources */,
 				F14106041BF878B90007FA82 /* Frameworks */,
 				F14106051BF878B90007FA82 /* Resources */,
-				FF4200EFD906D18BC4408B29 /* 📦 Embed Pods Frameworks */,
-				B288902A6F891C26AA5EEA8C /* 📦 Copy Pods Resources */,
+				FF4200EFD906D18BC4408B29 /* [CP] Embed Pods Frameworks */,
+				B288902A6F891C26AA5EEA8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -591,7 +635,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C440481D93D8D4001C2C9D /* AnimationTest.xib in Resources */,
 				F1D97EF51C19196F0009F2EA /* nextSong@2x.png in Resources */,
+				F19B3E9E1DFEDC7000DEED53 /* jspatch.js in Resources */,
 				F1D97EF81C19196F0009F2EA /* play.png in Resources */,
 				F1D97F001C19271F0009F2EA /* 冬天的秘密.mp3 in Resources */,
 				F1D97EF91C19196F0009F2EA /* play@2x.png in Resources */,
@@ -611,6 +657,7 @@
 				F1D97EFA1C19196F0009F2EA /* stop.png in Resources */,
 				F1D97F0A1C194E4B0009F2EA /* changan.gif in Resources */,
 				F1D97F0D1C194E4B0009F2EA /* 横向移动.gif in Resources */,
+				F12FA6DD1DBDF243005A5101 /* XibTestViewController.xib in Resources */,
 				F14106171BF878BA0007FA82 /* Assets.xcassets in Resources */,
 				F1D97EFB1C19196F0009F2EA /* stop@2x.png in Resources */,
 				F14106151BF878BA0007FA82 /* Main.storyboard in Resources */,
@@ -640,14 +687,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B288902A6F891C26AA5EEA8C /* 📦 Copy Pods Resources */ = {
+		B288902A6F891C26AA5EEA8C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,14 +702,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo-xxb/Pods-demo-xxb-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4B6BB6A2443FC680FB0A372 /* 📦 Check Pods Manifest.lock */ = {
+		C4B6BB6A2443FC680FB0A372 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,14 +717,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FF4200EFD906D18BC4408B29 /* 📦 Embed Pods Frameworks */ = {
+		FF4200EFD906D18BC4408B29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -697,22 +744,29 @@
 				F15108351C0C36B9004BE0B5 /* POPTestViewController.m in Sources */,
 				F141060F1BF878BA0007FA82 /* AppDelegate.m in Sources */,
 				F13449F91C1E6136000450B8 /* LrcRemoteViewController.m in Sources */,
+				F1E227AB1D869B16008271A9 /* MasonryTest.m in Sources */,
 				F1F2BC061D7DB5D700E69997 /* FDCell.m in Sources */,
 				F14106441BF87B290007FA82 /* MainView.m in Sources */,
+				F12FA6DC1DBDF243005A5101 /* XibTestViewController.m in Sources */,
 				F1A0803E1BFD6F1100E008AD /* AFNetWorkTestViewController.m in Sources */,
+				F1C440471D93D8D4001C2C9D /* AnimationTest.m in Sources */,
 				F1F4C08F1C056879005531C1 /* UIView+Frame.m in Sources */,
 				F1A080411BFD738F00E008AD /* FlexTitleTableViewController.m in Sources */,
 				F1F2BC031D7DB5A000E69997 /* TestFDTemplateLayoutCell.m in Sources */,
 				F13449F51C1E6129000450B8 /* MusicNetKit.m in Sources */,
+				F14351091D90CDE50040D52A /* SDCell.m in Sources */,
 				F141063F1BF879490007FA82 /* MainViewController.m in Sources */,
 				F1D97EE11C190B940009F2EA /* MusicTestViewController.m in Sources */,
 				F141060C1BF878BA0007FA82 /* main.m in Sources */,
 				F141064B1BF8B3D70007FA82 /* StartPagingVC.m in Sources */,
+				F1EB75111D87D65D006A6C71 /* AccelerometerTest.m in Sources */,
+				F14351101D9134550040D52A /* PulseTest.m in Sources */,
 				F11360241BF9B497005F109A /* XBSlidingViewController.m in Sources */,
 				F11360271BF9B4B6005F109A /* SlidingTestViewController.m in Sources */,
 				F1531C381C1FA42B00ED204D /* NSString+Common.m in Sources */,
 				F1A080861BFDC01000E008AD /* TestShareSDKViewController.m in Sources */,
 				F167DFF81C23B8B90054F7A9 /* LocationViewController.m in Sources */,
+				F1E227A81D8693D5008271A9 /* SDAutoLayoutTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

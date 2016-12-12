@@ -11,7 +11,14 @@
 @implementation MainView
 
 +(NSArray*)loadDataSource{
-    return @[@{@"title":@"长按对cell排序",@"class":@"LongPressExchgCellVC"},
+    return @[
+             @{@"title":@"xib测试",@"class":@"XibTestViewController"},
+             @{@"title":@"动画测试",@"class":@"AnimationTest"},
+             @{@"title":@"脉冲测试",@"class":@"PulseTest"},
+             @{@"title":@"陀螺仪测试",@"class":@"AccelerometerTest"},
+             @{@"title":@"Masonry测试",@"class":@"MasonryTest"},
+             @{@"title":@"SDAutoLayout测试",@"class":@"SDAutoLayoutTest"},
+             @{@"title":@"长按对cell排序",@"class":@"LongPressExchgCellVC"},
              @{@"title":@"引导页",@"class":@"StartPagingVC"},
              @{@"title":@"测试横向移动操作",@"class":@"SlidingTestViewController"},
              @{@"title":@"SDWebImage缓存加载测试",@"class":@"WebImgTestViewController"},

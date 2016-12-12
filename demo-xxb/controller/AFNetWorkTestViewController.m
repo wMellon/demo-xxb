@@ -86,7 +86,7 @@
 
 - (IBAction)start:(id)sender {
     if(!_operation){
-        _request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://x1.zhuti.com/down/2012/11/29-win7/3D-1.jpg"] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:5*60];
+        _request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://d.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=6005116dfb198618554ae7d62b844516/77094b36acaf2edd70d2dde58e1001e93901939f.jpg"] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:5*60];
         _operationManager = [AFHTTPRequestOperationManager manager];
         _operation = [_operationManager HTTPRequestOperationWithRequest:_request success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
             _pauseBtn.enabled = NO;

@@ -85,6 +85,11 @@
                         if(![temp hasPrefix:@"["] || ![temp hasSuffix:@"]"]){
                             continue;
                         }
+                        //al:恋人创世纪
+                        NSRange range = [temp rangeOfString:@"^\\[[0-6][0-9]:[0-6][0-9]\\.[0-9][0-9]\\]$" options:NSRegularExpressionSearch];
+                        if(range.location == NSNotFound){
+                            continue;
+                        }
                         //正式切割
                         //[02:06.53][00:38.24]你太善良 你太美丽
                         NSArray *tempArray = [content componentsSeparatedByString:@"]"];
@@ -96,7 +101,8 @@
                         }
                     }
                     //排序
-                    _timeArray = [[lrcTimeDict keysSortedByValueUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+                    NSArray *tempArray = [lrcTimeDict allKeys];
+                    _timeArray = [[tempArray sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
                         NSString *s1 = obj1;
                         NSString *s2 = obj2;
                         int i1 = [self getNumFromTimeStr:s1];
