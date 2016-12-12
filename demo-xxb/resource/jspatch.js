@@ -1,7 +1,7 @@
 defineClass('ViewController', {
             label: function() {
             var view = self.ORIGlabel();
-            view.setText("远程");
+            view.setText("哈哈221");
             return view;
             },
             });
